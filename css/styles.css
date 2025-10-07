@@ -1,0 +1,150 @@
+*{
+    padding:0;
+    margin: 0;
+    background-color: #F3E9DC;
+}
+
+#navegador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-bottom: 30px;
+    
+
+   
+}
+
+#navegador a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    margin: 25px;
+    color: #3E2F2F;
+
+}
+#navegador a:hover{
+    color: rgb(221, 221, 221);
+}
+
+#inicio {
+    background-image: url("../img/logo_coffee.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;          /* ajusta la imagen al contenedor */
+    background-position: center;     /* centra la imagen */
+    background-attachment: fixed;    /* efecto fondo fijo */
+    height: 500px;
+    
+
+ }
+
+
+#menu{
+    width: 100%;
+    background-color: #E0CBA8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.card{
+    border-radius: 20px;
+    margin: 15px;
+    width: 450px;
+    height: 500px;
+    background-color: #F3E9DC;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.card img{
+    width: 300px;
+    height: 350px;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.card p{
+    text-align: center;
+    margin: 20px;
+    font-size: 20px;
+    color: #6B4F3D;
+    
+    
+
+}
+
+#contacto{
+    width: 100%;
+    height: 1200px;
+    margin-top: 20px;
+
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#contacto iframe{
+    width: 600px;
+    height: 500px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.formulario {
+  max-width: 400px;       /* ancho máximo del formulario */
+  margin: 20px auto;      /* lo centra en la página */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.formulario form {
+  display: flex;
+  flex-direction: column; /* apila los elementos en columna */
+}
+
+.formulario label {
+  margin-top: 10px;       /* espacio arriba de cada label */
+  font-weight: bold;
+}
+
+.formulario input,
+.formulario textarea {
+  margin-top: 5px;        /* espacio entre label y campo */
+  padding: 8px;
+  border: 1px solid #6B4F3D;
+  border-radius: 4px;
+}
+
+.formulario button {
+  margin-top: 15px;
+  padding: 10px;
+  background: #F3E9DC;    /* color morado */
+  color: #000000;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.formulario button:hover {
+  background: #6B4F3D;
+}
+
+.redes{
+    display: flex;
+    justify-content: center;
+    margin: 30px 
+}
+
+.redes img{
+    width: 70px;
+    height: 70px;
+    margin: 20px;
+}
+
